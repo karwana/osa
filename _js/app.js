@@ -33,6 +33,20 @@ skrollr.init({
 
 delegate(document.body)
 
+// Allow scrolling on inner layer.
+// https://github.com/Prinzhorn/skrollr/issues/226
+.on('touchstart', '.js-body-part-scroller', function(event) {
+	event.stopPropagation();
+})
+
+.on('touchmove', '.js-body-part-scroller', function(event) {
+	event.stopPropagation();
+})
+
+.on('touchend', '.js-body-part-scroller', function(event) {
+	event.stopPropagation();
+})
+
 // Scroll to top.
 .on('click', '.js-scroll2top', function(event) {
 	window.scrollTo(0, 0);
