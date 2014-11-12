@@ -119,11 +119,11 @@ hr {
 
 	.first-line {
 		font-weight: bold;
+		display: block;
 	}
 
 	.second-line {
 		font-size: 0.8em;
-		display: block;
 	}
 
 	@media only screen and (min-width: 40rem) {
