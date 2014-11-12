@@ -1,0 +1,7 @@
+{
+	"dependencies": {
+		"skrollr": "~0.6.26",
+		"dom-delegate": "~2.0.3",
+		"browserify": "~6.0.2"
+	}
+}
