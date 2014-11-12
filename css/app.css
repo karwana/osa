@@ -36,7 +36,7 @@ hr { border-color: black; border-width: 1px; border-style: solid none none none;
 
 .full-image { height: 100vh; width: 100%; background-repeat: no-repeat; -moz-background-size: cover; -o-background-size: cover; -webkit-background-size: cover; background-size: cover; }
 
-.full-image-caption-group { margin: 0 2rem; max-width: 30rem; }
+.full-image-caption-group { margin: 0 2rem; max-width: 40rem; }
 
 .full-image-caption { font-family: 'Open Sans', sans-serif; color: white; text-shadow: 0 1px 2px #000; position: absolute; bottom: 2rem; max-width: 30rem; margin-right: 2rem; }
 
