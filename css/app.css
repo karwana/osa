@@ -28,7 +28,7 @@ hr { border-color: black; border-width: 1px; border-style: solid none none none;
 .article-header { margin-bottom: 4rem; position: relative; }
 
 .article-title { font-size: 2rem; margin: 0; padding-top: 2rem; font-family: 'Merriweather', serif; font-weight: 300; line-height: 1.2em; }
-.article-title .second-line { background-color: rgba(255, 255, 255, 0.5); line-height: 1.3em; }
+.article-title .second-line { background-color: rgba(255, 255, 255, 0.7); line-height: 1.3em; }
 .article-title .first-line { font-weight: bold; display: block; }
 .article-title .second-line { font-size: 0.8em; }
 @media only screen and (min-width: 40rem) { .article-title { font-size: 4rem; padding-top: 4rem; } }
