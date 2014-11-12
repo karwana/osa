@@ -112,17 +112,22 @@ hr {
 	font-weight: 300;
 	line-height: 1.2em;
 
+	.second-line {
+		background-color: rgba(255, 255, 255, 0.5);
+		line-height: 1.3em;
+	}
+
 	.first-line {
 		font-weight: bold;
 	}
 
 	.second-line {
-		font-size: 0.7em;
+		font-size: 0.8em;
 		display: block;
 	}
 
 	@media only screen and (min-width: 40rem) {
-		font-size: 3rem;
+		font-size: 4rem;
 		padding-top: 4rem;
 	}
 }
@@ -149,7 +154,7 @@ hr {
 
 .full-image-caption-group {
 	margin: 0 2rem;
-	max-width: 40rem;
+	max-width: 50rem;
 }
 
 .full-image-caption {
