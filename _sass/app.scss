@@ -31,19 +31,6 @@ hr {
 	margin: 2em auto;
 }
 
-.platform-header {
-	height: 2rem;
-	width: 100%;
-	position: fixed;
-	z-index: 2;
-	top: 0;
-	left: 0;
-	padding: 0.2rem 0;
-	background-color: #7AB317;
-	border-bottom: 1px solid #6a9d10;
-	-webkit-box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.52);
-}
-
 .platform-sponsor {
 	color: white;
 	background-color: #d2232a;
@@ -53,7 +40,7 @@ hr {
 	position: absolute;
 	width: 100%;
 	z-index: 1;
-	top: 2.4rem;
+	top: 0;
 	@include box-sizing(border-box);
 	background-image: url(../img/logos/canje.png);
 	background-repeat: no-repeat;
@@ -146,7 +133,7 @@ hr {
 .article-title {
 	font-size: 2rem;
 	margin: 0;
-	padding-top: 8rem;
+	padding-top: 6rem;
 	font-family: 'Merriweather', serif;
 	font-weight: 300;
 	line-height: 1.2em;
@@ -167,7 +154,7 @@ hr {
 
 	@media only screen and (min-width: 40rem) {
 		font-size: 4rem;
-		padding-top: 6rem;
+		padding-top: 4rem;
 	}
 }
 

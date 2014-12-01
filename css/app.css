@@ -11,9 +11,7 @@ a img { border: none; }
 
 hr { border-color: black; border-width: 1px; border-style: solid none none none; width: 6em; margin: 2em auto; }
 
-.platform-header { height: 2rem; width: 100%; position: fixed; z-index: 2; top: 0; left: 0; padding: 0.2rem 0; background-color: #7AB317; border-bottom: 1px solid #6a9d10; -webkit-box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.52); }
-
-.platform-sponsor { color: white; background-color: #d2232a; font-family: 'Open Sans', sans-serif; clear: both; padding: 0.6rem 1rem 0.6rem 3.5rem; position: absolute; width: 100%; z-index: 1; top: 2.4rem; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; background-image: url(../img/logos/canje.png); background-repeat: no-repeat; background-position: 1rem center; -moz-background-size: auto 3rem; -o-background-size: auto 3rem; -webkit-background-size: auto 3rem; background-size: auto 3rem; }
+.platform-sponsor { color: white; background-color: #d2232a; font-family: 'Open Sans', sans-serif; clear: both; padding: 0.6rem 1rem 0.6rem 3.5rem; position: absolute; width: 100%; z-index: 1; top: 0; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; background-image: url(../img/logos/canje.png); background-repeat: no-repeat; background-position: 1rem center; -moz-background-size: auto 3rem; -o-background-size: auto 3rem; -webkit-background-size: auto 3rem; background-size: auto 3rem; }
 .platform-sponsor h1 { margin: 0; font-size: 1rem; line-height: 1.6em; }
 .platform-sponsor h2 { font-size: 0.7rem; }
 .platform-sponsor h3 { font-size: 0.6rem; text-transform: uppercase; }
@@ -33,11 +31,11 @@ hr { border-color: black; border-width: 1px; border-style: solid none none none;
 
 .article-header { margin-bottom: 4rem; position: relative; }
 
-.article-title { font-size: 2rem; margin: 0; padding-top: 8rem; font-family: 'Merriweather', serif; font-weight: 300; line-height: 1.2em; }
+.article-title { font-size: 2rem; margin: 0; padding-top: 6rem; font-family: 'Merriweather', serif; font-weight: 300; line-height: 1.2em; }
 .article-title .second-line { background-color: rgba(255, 255, 255, 0.7); line-height: 1.3em; }
 .article-title .first-line { font-weight: bold; display: block; }
 .article-title .second-line { font-size: 0.8em; }
-@media only screen and (min-width: 40rem) { .article-title { font-size: 4rem; padding-top: 6rem; } }
+@media only screen and (min-width: 40rem) { .article-title { font-size: 4rem; padding-top: 4rem; } }
 
 .article-author { margin-top: 1rem; background-color: rgba(255, 255, 255, 0.6); display: inline-block; padding: 0.2em; font-size: 0.9rem; font-family: 'Open Sans', sans-serif; font-weight: 300; font-style: normal; text-transform: uppercase; }
 
